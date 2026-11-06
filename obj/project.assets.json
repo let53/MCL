@@ -1,0 +1,87 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "CmlLib.Core/4.1.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "CmlLib.Core/4.1.0": {
+      "sha512": "vVivJ2Bnd7eZrCLzqvp8QwUTxP98cgcZgtlJ3RksLvaIwe/MAMFc92lkCVKw0nVIKwvNeMTH4EVlKg2HW8SD7w==",
+      "type": "package",
+      "path": "cmllib.core/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "cmllib.core.4.1.0.nupkg.sha512",
+        "cmllib.core.nuspec",
+        "icon.png",
+        "lib/net8.0/CmlLib.Core.dll",
+        "lib/netstandard2.0/CmlLib.Core.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "CmlLib.Commons >= 4.0.0",
+      "CmlLib.Core >= 4.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Галина\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Projects\\MCLP\\MCLP.csproj",
+      "projectName": "MCLP",
+      "projectPath": "F:\\Projects\\MCLP\\MCLP.csproj",
+      "packagesPath": "C:\\Users\\Галина\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\MCLP\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Галина\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "dependencies": {
+          "CmlLib.Commons": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "CmlLib.Core": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет CmlLib.Commons. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: nuget.org",
+      "libraryId": "CmlLib.Commons",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    }
+  ]
+}
