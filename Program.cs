@@ -1,15 +1,15 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: Галина
- * Date: 16.10.2026
- * Time: 21:38
+ * Date: 05.11.2026
+ * Time: 23:59
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
 using System.Windows.Forms;
 
-namespace MCL
+namespace MCLP
 {
 	/// <summary>
 	/// Class with program entry point.
